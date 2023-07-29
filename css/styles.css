@@ -22,7 +22,7 @@ button {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .link {
@@ -41,12 +41,12 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.54px;
-  color: var(--navyblue);
+  color: var(--iris);
   text-transform: uppercase;
 }
 
 .page-logo-colored {
-  color: var(--iris);
+  color: var(--navyblue);
 }
 
 .page-header-link {
@@ -61,6 +61,7 @@ button {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
+  line-height: 1.5;
   color: var(--state);
 }
 
@@ -69,11 +70,16 @@ button {
   color: var(--ocean);
 }
 
+.page-header-contacts {
+  font-style: normal;
+}
+
 .hero {
   background-color: var(--navyblue);
 }
 
 .main-title {
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -82,6 +88,7 @@ button {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   background-color: var(--iris);
   font-weight: 500;
@@ -96,6 +103,16 @@ button {
 }
 
 .section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navyblue);
+}
+
+.benefits-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -108,6 +125,14 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.team {
+  background-color: ar(--cloud);
+}
+
+.team-member {
+  background-color: var(--white);
 }
 
 .team-member-name {
@@ -129,7 +154,7 @@ button {
   background-color: var(--navyblue);
 }
 
-.footer-logo {
+.page-logo-footer {
   color: var(--cloud);
 }
 
@@ -172,4 +197,5 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--state);
 }
