@@ -125,6 +125,10 @@ button {
   letter-spacing: 0.32px;
 }
 
+.footer {
+  background-color: var(--navyblue);
+}
+
 .footer-logo {
   color: var(--cloud);
 }
