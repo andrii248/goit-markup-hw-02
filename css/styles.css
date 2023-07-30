@@ -128,7 +128,7 @@ button {
 }
 
 .team {
-  background-color: ar(--cloud);
+  background-color: var(--cloud);
 }
 
 .team-member {
@@ -197,5 +197,4 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  color: var(--state);
 }
