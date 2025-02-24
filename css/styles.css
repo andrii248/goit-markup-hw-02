@@ -178,14 +178,6 @@ button {
   color: var(--white);
 }
 
-.projects-title {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.05em;
-  color: var(--navyblue);
-}
-
 .projects-tag {
   font-size: 16px;
   line-height: 1.5;
